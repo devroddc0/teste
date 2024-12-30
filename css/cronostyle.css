@@ -1,0 +1,39 @@
+.contador {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    margin-top: 1090px;
+    padding-bottom: 80px;
+    opacity: .5;
+}
+.linha {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.contador .bloco {
+    width: 130px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, .8);
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.contador .bloco .valor {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Montserrat", serif;
+}
+.contador .bloco .label {
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: "Montserrat", serif;
+}
+
